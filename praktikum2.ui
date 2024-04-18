@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1058</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1058</width>
+    <height>642</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1058</width>
+    <height>642</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>641</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>-50</x>
+      <y>-20</y>
+      <width>681</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1061</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #1D4F42;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>20</y>
+      <width>561</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/12.png);
+background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>80</y>
+      <width>741</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/11.png);
+background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>341</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_22">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Do you need your coffee iced?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QRadioButton" name="radioButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+         </property>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+         </property>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_21">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Add any extra shots of espresso?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QRadioButton" name="radioButton_4">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+         </property>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_3">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+         </property>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_23">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Any instructions or additional requests?</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>341</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Full name</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="accessibleName">
+          <string/>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 20;
+</string>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Normal</enum>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string notr="true">First Name</string>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 20;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Last Name</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>140</y>
+      <width>301</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Coffee size</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 20;</string>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <property name="currentText">
+        <string>Small</string>
+       </property>
+       <property name="insertPolicy">
+        <enum>QComboBox::InsertBeforeCurrent</enum>
+       </property>
+       <property name="frame">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>Small</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Medium</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Large</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_16">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Coffee type</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 20;</string>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <property name="currentText">
+        <string>Espresso</string>
+       </property>
+       <property name="insertPolicy">
+        <enum>QComboBox::InsertBeforeCurrent</enum>
+       </property>
+       <property name="sizeAdjustPolicy">
+        <enum>QComboBox::AdjustToContents</enum>
+       </property>
+       <item>
+        <property name="text">
+         <string>Espresso</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Americano</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mocha</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cappuccino</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Latte</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Milk Preference</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_6">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 20;</string>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <property name="currentText">
+        <string>Regular</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Regular</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Almond</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Soy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Oat</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_20">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Additional toppings</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_7">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 20;</string>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <property name="currentText">
+        <string>Whipped cream</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Whipped cream</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Caramel sauce</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chocolate syrup</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vanilla syrup</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cinamon powder</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;</string>
+       </property>
+       <property name="text">
+        <string>Quantity</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QSpinBox" name="spinBox">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;
+background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 20;</string>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 63 8pt &quot;Montserrat SemiBold&quot;;
+font-weight: 200;
+background-color: rgb(254, 186, 31);
+border-radius: 10px; 
+border: 1px solid rgb(254, 186, 31); 
+height: 30;</string>
+         </property>
+         <property name="text">
+          <string>Order</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>-100</x>
+      <y>420</y>
+      <width>421</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/7.png);
+background: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>440</y>
+      <width>321</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::WheelFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/8.png);
+background: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/10.png);
+background: transparent;</string>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>179</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;Geometr415 Blk BT&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>ZAFFEE BREW</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>341</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border-radius: 8px; 
+border: 1px solid rgb(254, 186, 31); </string>
+    </property>
+    <property name="placeholderText">
+     <string>ex: add more milk</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>268</x>
+      <y>60</y>
+      <width>221</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 28pt &quot;Playball&quot;;
+font-weight: 600;</string>
+    </property>
+    <property name="text">
+     <string>form</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>241</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(254, 186, 31);
+font: 75 30pt &quot;MS Shell Dlg 2&quot;;
+font-weight: 600;</string>
+    </property>
+    <property name="text">
+     <string>ORDER</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>-20</y>
+      <width>1141</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/9.png);
+background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>280</y>
+      <width>381</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/1.png);
+background: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_11</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_10</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>verticalLayoutWidget_2</zorder>
+   <zorder>verticalLayoutWidget_3</zorder>
+   <zorder>label_24</zorder>
+   <zorder>label_26</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_18</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="D:/FILE SEMESTER 6/DOCUMENT/images/images.qrc"/>
+ </resources>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>20</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>20</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
