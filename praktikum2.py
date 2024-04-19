@@ -47,7 +47,7 @@ class Ui_Form(object):
         self.label_11.setText("")
         self.label_11.setObjectName("label_11")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.frame_3)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(20, 240, 341, 161))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(20, 240, 341, 121))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
@@ -61,39 +61,29 @@ class Ui_Form(object):
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.radioButton = QtWidgets.QRadioButton(self.verticalLayoutWidget)
+        self.radioButton.setEnabled(True)
+        self.radioButton.setAcceptDrops(True)
         self.radioButton.setStyleSheet("color: rgb(255, 255, 255);\n"
 "font: 63 8pt \"Montserrat SemiBold\";\n"
 "font-weight: 200;")
+        self.radioButton.setChecked(True)
+        self.radioButton.setAutoRepeat(False)
         self.radioButton.setObjectName("radioButton")
         self.horizontalLayout_3.addWidget(self.radioButton)
         self.radioButton_2 = QtWidgets.QRadioButton(self.verticalLayoutWidget)
+        self.radioButton_2.setEnabled(True)
+        self.radioButton_2.setTabletTracking(False)
+        self.radioButton_2.setAcceptDrops(True)
+        self.radioButton_2.setAutoFillBackground(False)
         self.radioButton_2.setStyleSheet("color: rgb(255, 255, 255);\n"
 "font: 63 8pt \"Montserrat SemiBold\";\n"
 "font-weight: 200;")
+        self.radioButton_2.setChecked(False)
+        self.radioButton_2.setAutoRepeat(True)
+        self.radioButton_2.setAutoRepeatDelay(297)
         self.radioButton_2.setObjectName("radioButton_2")
         self.horizontalLayout_3.addWidget(self.radioButton_2)
         self.verticalLayout.addLayout(self.horizontalLayout_3)
-        self.label_21 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.label_21.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 63 8pt \"Montserrat SemiBold\";\n"
-"font-weight: 200;")
-        self.label_21.setObjectName("label_21")
-        self.verticalLayout.addWidget(self.label_21)
-        self.horizontalLayout_5 = QtWidgets.QHBoxLayout()
-        self.horizontalLayout_5.setObjectName("horizontalLayout_5")
-        self.radioButton_4 = QtWidgets.QRadioButton(self.verticalLayoutWidget)
-        self.radioButton_4.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 63 8pt \"Montserrat SemiBold\";\n"
-"font-weight: 200;")
-        self.radioButton_4.setObjectName("radioButton_4")
-        self.horizontalLayout_5.addWidget(self.radioButton_4)
-        self.radioButton_3 = QtWidgets.QRadioButton(self.verticalLayoutWidget)
-        self.radioButton_3.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 63 8pt \"Montserrat SemiBold\";\n"
-"font-weight: 200;")
-        self.radioButton_3.setObjectName("radioButton_3")
-        self.horizontalLayout_5.addWidget(self.radioButton_3)
-        self.verticalLayout.addLayout(self.horizontalLayout_5)
         self.label_23 = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.label_23.setStyleSheet("color: rgb(255, 255, 255);\n"
 "font: 63 8pt \"Montserrat SemiBold\";\n"
@@ -115,26 +105,16 @@ class Ui_Form(object):
         self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_4.setObjectName("horizontalLayout_4")
         self.lineEdit = QtWidgets.QLineEdit(self.verticalLayoutWidget_2)
-        self.lineEdit.setEnabled(True)
-        self.lineEdit.setAccessibleName("")
-        self.lineEdit.setAutoFillBackground(False)
         self.lineEdit.setStyleSheet("background-color: transparent;\n"
+"color: rgb(255, 255, 255);\n"
 "border-radius: 8px; \n"
 "border: 1px solid rgb(254, 186, 31); \n"
-"height: 20;\n"
-"")
-        self.lineEdit.setInputMask("")
-        self.lineEdit.setText("")
-        self.lineEdit.setFrame(True)
-        self.lineEdit.setEchoMode(QtWidgets.QLineEdit.Normal)
-        self.lineEdit.setDragEnabled(False)
-        self.lineEdit.setReadOnly(True)
-        self.lineEdit.setPlaceholderText("First Name")
-        self.lineEdit.setClearButtonEnabled(False)
+"height: 20;")
         self.lineEdit.setObjectName("lineEdit")
         self.horizontalLayout_4.addWidget(self.lineEdit)
         self.lineEdit_3 = QtWidgets.QLineEdit(self.verticalLayoutWidget_2)
         self.lineEdit_3.setStyleSheet("background-color: transparent;\n"
+"color: rgb(255, 255, 255);\n"
 "border-radius: 8px; \n"
 "border: 1px solid rgb(254, 186, 31); \n"
 "height: 20;")
@@ -156,11 +136,11 @@ class Ui_Form(object):
         self.comboBox = QtWidgets.QComboBox(self.verticalLayoutWidget_3)
         self.comboBox.setAutoFillBackground(False)
         self.comboBox.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: transparent;\n"
+"background-color: rgb(29, 79, 66);\n"
 "border-radius: 8px; \n"
 "border: 1px solid rgb(254, 186, 31); \n"
 "height: 20;")
-        self.comboBox.setEditable(True)
+        self.comboBox.setEditable(False)
         self.comboBox.setInsertPolicy(QtWidgets.QComboBox.InsertBeforeCurrent)
         self.comboBox.setFrame(True)
         self.comboBox.setObjectName("comboBox")
@@ -176,11 +156,11 @@ class Ui_Form(object):
         self.verticalLayout_3.addWidget(self.label_16)
         self.comboBox_2 = QtWidgets.QComboBox(self.verticalLayoutWidget_3)
         self.comboBox_2.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: transparent;\n"
+"background-color: rgb(29, 79, 66);\n"
 "border-radius: 8px; \n"
 "border: 1px solid rgb(254, 186, 31); \n"
 "height: 20;")
-        self.comboBox_2.setEditable(True)
+        self.comboBox_2.setEditable(False)
         self.comboBox_2.setInsertPolicy(QtWidgets.QComboBox.InsertBeforeCurrent)
         self.comboBox_2.setSizeAdjustPolicy(QtWidgets.QComboBox.AdjustToContents)
         self.comboBox_2.setObjectName("comboBox_2")
@@ -198,11 +178,11 @@ class Ui_Form(object):
         self.verticalLayout_3.addWidget(self.label_19)
         self.comboBox_6 = QtWidgets.QComboBox(self.verticalLayoutWidget_3)
         self.comboBox_6.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: transparent;\n"
+"background-color: rgb(29, 79, 66);\n"
 "border-radius: 8px; \n"
 "border: 1px solid rgb(254, 186, 31); \n"
 "height: 20;")
-        self.comboBox_6.setEditable(True)
+        self.comboBox_6.setEditable(False)
         self.comboBox_6.setObjectName("comboBox_6")
         self.comboBox_6.addItem("")
         self.comboBox_6.addItem("")
@@ -218,11 +198,11 @@ class Ui_Form(object):
         self.comboBox_7 = QtWidgets.QComboBox(self.verticalLayoutWidget_3)
         self.comboBox_7.setStyleSheet("color: rgb(255, 255, 255);\n"
 "font: 8pt \"MS Shell Dlg 2\";\n"
-"background-color: transparent;\n"
+"background-color: rgb(29, 79, 66);\n"
 "border-radius: 8px; \n"
 "border: 1px solid rgb(254, 186, 31); \n"
 "height: 20;")
-        self.comboBox_7.setEditable(True)
+        self.comboBox_7.setEditable(False)
         self.comboBox_7.setObjectName("comboBox_7")
         self.comboBox_7.addItem("")
         self.comboBox_7.addItem("")
@@ -291,9 +271,10 @@ class Ui_Form(object):
 "color: rgb(255, 255, 255);")
         self.label.setObjectName("label")
         self.lineEdit_4 = QtWidgets.QLineEdit(self.frame_3)
-        self.lineEdit_4.setGeometry(QtCore.QRect(20, 420, 341, 40))
+        self.lineEdit_4.setGeometry(QtCore.QRect(20, 380, 341, 40))
         self.lineEdit_4.setMaximumSize(QtCore.QSize(16777215, 41))
         self.lineEdit_4.setStyleSheet("background-color: transparent;\n"
+"color: rgb(255, 255, 255);\n"
 "border-radius: 8px; \n"
 "border: 1px solid rgb(254, 186, 31); ")
         self.lineEdit_4.setObjectName("lineEdit_4")
@@ -312,7 +293,7 @@ class Ui_Form(object):
         self.label_6.setWordWrap(True)
         self.label_6.setObjectName("label_6")
         self.label_4 = QtWidgets.QLabel(self.frame_3)
-        self.label_4.setGeometry(QtCore.QRect(-40, -20, 1141, 681))
+        self.label_4.setGeometry(QtCore.QRect(-40, 0, 1141, 681))
         self.label_4.setStyleSheet("image: url(:/newPrefix/9.png);\n"
 "background-color: transparent;")
         self.label_4.setText("")
@@ -325,6 +306,12 @@ class Ui_Form(object):
 "")
         self.label_18.setText("")
         self.label_18.setObjectName("label_18")
+        self.label_2 = QtWidgets.QLabel(self.frame_3)
+        self.label_2.setGeometry(QtCore.QRect(260, 0, 461, 41))
+        self.label_2.setStyleSheet("color: rgb(255, 255, 255);\n"
+"font: 63 8pt \"Montserrat SemiBold\";\n"
+"font-weight: 200;")
+        self.label_2.setObjectName("label_2")
         self.label_11.raise_()
         self.label_4.raise_()
         self.label_10.raise_()
@@ -339,6 +326,7 @@ class Ui_Form(object):
         self.label_12.raise_()
         self.label_6.raise_()
         self.label_18.raise_()
+        self.label_2.raise_()
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -349,11 +337,9 @@ class Ui_Form(object):
         self.label_22.setText(_translate("Form", "Do you need your coffee iced?"))
         self.radioButton.setText(_translate("Form", "Yes"))
         self.radioButton_2.setText(_translate("Form", "No"))
-        self.label_21.setText(_translate("Form", "Add any extra shots of espresso?"))
-        self.radioButton_4.setText(_translate("Form", "Yes"))
-        self.radioButton_3.setText(_translate("Form", "No"))
         self.label_23.setText(_translate("Form", "Any instructions or additional requests?"))
         self.label_13.setText(_translate("Form", "Full name"))
+        self.lineEdit.setPlaceholderText(_translate("Form", "First Name"))
         self.lineEdit_3.setPlaceholderText(_translate("Form", "Last Name"))
         self.label_15.setText(_translate("Form", "Coffee size"))
         self.comboBox.setCurrentText(_translate("Form", "Small"))
@@ -383,9 +369,10 @@ class Ui_Form(object):
         self.label_9.setText(_translate("Form", "Quantity"))
         self.pushButton.setText(_translate("Form", "Order"))
         self.label.setText(_translate("Form", "ZAFFEE BREW"))
-        self.lineEdit_4.setPlaceholderText(_translate("Form", "ex: add more milk"))
+        self.lineEdit_4.setPlaceholderText(_translate("Form", "ex: add extra shots of espresso"))
         self.label_12.setText(_translate("Form", "form"))
         self.label_6.setText(_translate("Form", "ORDER"))
+        self.label_2.setText(_translate("Form", "Developed by Zakiyya Khairani"))
 import images_rc
 
 
